@@ -1,0 +1,17 @@
+from flask import Flask
+import requests
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    url = 'https://randomfox.ca/floof/'
+    res = requests.get(url)
+    bb = res.json()
+    image_source = bb.get('image')
+    return f'''<h1>Hello Fox</h1>
+<img src={image_source}>
+'''
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
