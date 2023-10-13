@@ -1,10 +1,6 @@
 from flask import Flask, render_template
 import requests
 
-def qq():
-    return 'qqqqqqq'
-app = Flask(__name__)
-
 @app.route('/')
 def hello_world():
     return f'''<link rel="stylesheet" type="text/css" href="https://nst1.gismeteo.ru/assets/flat-ui/legacy/css/informer.min.css">
