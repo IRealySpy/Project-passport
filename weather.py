@@ -5,7 +5,7 @@ import requests
 def hello_world():
     return f'''
 <link rel="stylesheet" type="text/css" href="https://nst1.gismeteo.ru/assets/flat-ui/legacy/css/informer.min.css">
-<div id="gsInformerID-h8vUqEMyGqL4JH" class="gsInformer" style="width:240px;height:181px">
+<div id="gsInformerID-FtJV5I857Qf28m" class="gsInformer" style="width:240px;height:193px">
     <div class="gsIContent">
         <div id="cityLink">
             <a href="https://www.gismeteo.ru/weather-moscow-4368/" target="_blank" title="Погода в Москве">
@@ -33,7 +33,7 @@ def hello_world():
         </div>
     </div>
 </div>
-<script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=h8vUqEMyGqL4JH"></script>
+<script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=FtJV5I857Qf28m"></script>
 '''
 
 
