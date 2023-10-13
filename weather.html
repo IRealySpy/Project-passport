@@ -8,7 +8,3 @@ html = response.content
 soup = BeautifulSoup(html, 'html.parser')
 
 messages = soup.find_all('div', {'class': 'tgme_widget_message_text'})
-
-for message in messages:
-    text = message.get_text()
-    print(text)
