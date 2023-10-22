@@ -1,6 +1,6 @@
 body {
     font-family: Brush Script MT, Brush Script Std, cursive;
-    background-color: darkgreen;
+    background-color: DimGrey;
 }
 
 .tem {
@@ -15,7 +15,7 @@ h1, h2, h3 {
 }
 
 .nac {
-    background-color: DimGrey;
+    background-color: darkgreen;
     padding: 5px;
     margin: 10px;
     border: 3px;
